@@ -5,7 +5,9 @@
 ## 本项目红包计算方式
 核心计算代码:js版本:
 ```js
-
+//Params: blockHash 区块哈希值,类型 Buffer
+//        packs 红包包数量,类型 int
+//        amount 金额,无小数点,此项目发送红包一定为正整数,类型 int
 function CalcNum(blockHash, packs, amount) {
 
     amount = amount * 100;//保留两位小数
