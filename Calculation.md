@@ -4,7 +4,7 @@
 
 ## 本项目红包计算方式
 核心计算代码:js版本:
-```
+```js
 
 function CalcNum(blockHash, packs, amount) {
 
@@ -50,12 +50,16 @@ function CalcNum(blockHash, packs, amount) {
     return [lotteryNums, lastNums]
 }
 ```
-- 以主链上的solt 133102600为例,其区块的哈希值为: 2apmAoEXndGaShcBFsNEHkmDt87DmXHBYwecQ11HUWEL 
-- 以红包为10USDT,分成9个包,经计算得出
-- 9个红包分别为 0.91,1.04,1.42,1.53,1.37,0.49,1.75,0.12,1.37 红包合计10
-- 尾数分别为 1,4,2,3,7,9,5,2,7
-
-- 完整代码在当前目录的Calculation.js,请使用nodejs调用
+> 以主链上的solt 133102600为例,其区块的哈希值为: 2apmAoEXndGaShcBFsNEHkmDt87DmXHBYwecQ11HUWEL 
+>
+> 以红包为10USDT,分成9个包,经计算得出
+> 
+> 9个红包分别为 0.91,1.04,1.42,1.53,1.37,0.49,1.75,0.12,1.37 红包合计10
+> 
+> 尾数分别为 1,4,2,3,7,9,5,2,7
+>
+> 完整代码在当前目录的[Calculation.js](Calculation.js),请使用nodejs运行
+> 
 
 
 
