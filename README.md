@@ -1,2 +1,2 @@
 # RomelApp
-Decentralized DApp on the Solana blockchain.
+Decentralized App on the Solana blockchain.
